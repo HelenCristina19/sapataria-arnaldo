@@ -1,10 +1,11 @@
 body {
     color: black;
-    background-color: burlywood;
+    background-color: rgb(180, 142, 104);
     
 }
 .menu {
     display: flex;
+    background-color: rgb(102, 62, 13);
     justify-content: center;
 
 }
