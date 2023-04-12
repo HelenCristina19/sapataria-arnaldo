@@ -1,0 +1,67 @@
+body {
+    color: black;
+    background-color: rgb(180, 142, 104);
+    background-image: url("../pasta-de-imagens/sapataria.jpeg");
+    background-size: cover;
+    
+}
+.menu {
+    display: flex;
+    background-color: rgb(102, 62, 13);
+    justify-content: center;
+
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #181616;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.rodape {
+    background-color: #a75207;
+    color: #ffffff;
+    padding: 20px;
+  }
+  .titulo-pagina {
+    margin: 40px auto 10px; /*margin: top right bottom left; */
+    padding-left: 10px;
+    width: 80%;
+    font-size: 24pt;
+    font-weight: 700;
+    color: #e27e37; /* Código hexadecimal da cor */
+    justify-content: center;
+    display: flex;
+  }
+  
+  .subtitulo-pagina {
+    margin: 10px auto 10px;
+    padding-left: 10px;
+    width: 80%;
+    font-size: 20pt;
+    color: #df9b4d;
+    justify-content: center;
+    display: flex;
+  }
+
+  .paragrafo-do-titulo {
+    margin: 10px auto 10px;
+    padding-left: 10px;
+    width: 80%;
+    font-size: 20pt;
+    color: #ebc098;
+    justify-content: center;
+    display: flex;
+
+  }
+
+  .cores_1 {
+    color: #f5ecec;
+  }
+  
+  

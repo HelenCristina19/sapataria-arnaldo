@@ -1,0 +1,49 @@
+body {
+    color: black;
+    background-color: rgb(180, 142, 104);
+    
+}
+.menu {
+    display: flex;
+    background-color: rgb(102, 62, 13);
+    justify-content: center;
+
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #0e0d0d;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.imagem-banner {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: 0,10%;
+  }
+
+.rodape {
+    background-color: #a75207;
+    color: #ffffff;
+    padding: 20px;
+  }
+  .titulo-pagina {
+    margin: 40px auto 10px; /*margin: top right bottom left; */
+    padding-left: 10px;
+    width: 80%;
+    font-size: 24pt;
+    font-weight: 700;
+    color: #924909; /* Código hexadecimal da cor */
+  }
+  
+  .subtitulo-pagina {
+    margin: 10px auto 10px;
+    padding-left: 10px;
+    width: 80%;
+    font-size: 20pt;
+  }
