@@ -63,22 +63,66 @@ body {
   .cores_1 {
     color: #f5ecec;
     font-size: 24pt;
+    color: white;
+    background:rgb(141, 82, 5);
+    font-size: 20pt;
+    font-style: italic;
+    border:3px solid rgb(134, 112, 112);
+    height: 40px;
+    line-height: 1.5;
   }
 
   .cores_2 {
     color: #f5ecec;
     font-size: 24pt;
+    color: white;
+    background:rgb(141, 82, 5);
+    font-size: 20pt;
+    font-style: italic;
+    border:3px solid rgb(134, 112, 112);
+    height: 40px;
+    line-height: 1.5;
   }
   
   .cores_3 {
     color: #f5ecec;
     font-size: 24pt;
+    color: white;
+    background:rgb(141, 82, 5);
+    font-size: 20pt;
+    font-style: italic;
+    border:3px solid rgb(134, 112, 112);
+    height: 40px;
+    line-height: 1.5;
   }
   
   .cores_4 {
     color: #f5ecec;
     font-size: 24pt;
+    color: white;
+    background:rgb(141, 82, 5);
+    font-size: 20pt;
+    font-style: italic;
+    border:3px solid rgb(134, 112, 112);
+    height: 40px;
+    line-height: 1.5;
   }
-  
-  
+
+  .banner-header{
+    width:100%; /* largura*/
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    
+    }
+    .produtos-sapatos img{
+    width:20%; /* largura*/
+    height: 200px;
+    }
+    .produtos_bolsas img{
+    width:20%; /* largura*/
+    height: 200px;
+    
+    }
+    
   
