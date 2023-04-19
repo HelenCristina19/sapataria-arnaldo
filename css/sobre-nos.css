@@ -1,6 +1,6 @@
 body {
     color: black;
-    background-color: rgb(180, 142, 104);
+    background-color: rgb(141, 92, 42);
     
 }
 .menu {
@@ -32,7 +32,7 @@ body {
     width: 80%;
     font-size: 24pt;
     font-weight: 700;
-    color: #a75207; /* Código hexadecimal da cor */
+    color: #582e09; /* Código hexadecimal da cor */
     justify-content: center;
     display: flex;
     text-transform: uppercase;
@@ -44,7 +44,7 @@ body {
     padding-left: 10px;
     width: 80%;
     font-size: 20pt;
-    color: #4d2e2e;
+    color: #582e09; /* Código hexadecimal da cor */
   }
   .immagem_do_banner {
     width: 200%;
@@ -76,7 +76,7 @@ body {
     width: 80%;
     font-size: 24pt;
     font-weight: 700;
-    color: #a75207; /* Código hexadecimal da cor */
+    color: #582e09; /* Código hexadecimal da cor */
     justify-content: center;
     display: flex;
     text-transform: uppercase;

@@ -1,49 +1,90 @@
 body {
     color: black;
     background-color: rgb(180, 142, 104);
-    
+    background-image: url("../pasta-de-imagens/sapataria.jpeg");
+    background-size: cover;
 }
+
+
 .menu {
-    display: flex;
-    background-color: rgb(102, 62, 13);
-    justify-content: center;
+  display: flex;
+  background-color: rgb(102, 62, 13);
+  justify-content: center;
 
 }
 .menu ul {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 .menu ul li a {
-    text-decoration: none;
-    color: #0e0d0d;
-    text-transform: uppercase;
-    font-size: 40px;
+  text-decoration: none;
+  color: #181616;
+  text-transform: uppercase;
+  font-size: 40px;
 }
-.imagem-banner {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-    object-position: 0,10%;
-  }
 
 .rodape {
-    background-color: #a75207;
-    color: #ffffff;
-    padding: 20px;
-  }
-  .titulo-pagina {
-    margin: 40px auto 10px; /*margin: top right bottom left; */
-    padding-left: 10px;
-    width: 80%;
-    font-size: 24pt;
-    font-weight: 700;
-    color: #924909; /* Código hexadecimal da cor */
+  background-color: #a75207;
+  color: #ffffff;
+  padding: 20px;
+}
+.titulo-pagina {
+  margin: 40px auto 10px; /*margin: top right bottom left; */
+  padding-left: 10px;
+  width: 80%;
+  font-size: 24pt;
+  font-weight: 700;
+  color: #e27e37; /* Código hexadecimal da cor */
+  justify-content: center;
+  display: flex;
+}
+
+.subtitulo-pagina {
+  margin: 10px auto 10px;
+  padding-left: 10px;
+  width: 80%;
+  font-size: 20pt;
+  color: #df9b4d;
+  justify-content: center;
+  display: flex;
+}
+
+.paragrafo-do-titulo {
+  margin: 10px auto 10px;
+  padding-left: 10px;
+  width: 80%;
+  font-size: 20pt;
+  color: #ebc098;
+  justify-content: center;
+  display: flex;
+
+}
+
+.cores {
+  color: #f5ecec;
+  font-size: 24pt;
+  color: white;
+  background:rgb(141, 82, 5);
+  font-size: 20pt;
+  font-style: italic;
+  border:3px solid rgb(134, 112, 112);
+  height: 40px;
+  line-height: 1.5;
+}
+
+.imagem_produtos_index {
+  width: 300px;
+  height: 300px;
+}
+
+.banner-header{
+  width:100%; /* largura*/
+  height: 250px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  
   }
   
-  .subtitulo-pagina {
-    margin: 10px auto 10px;
-    padding-left: 10px;
-    width: 80%;
-    font-size: 20pt;
-  }
+
+  
