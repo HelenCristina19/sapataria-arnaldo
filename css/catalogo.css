@@ -33,7 +33,7 @@ body {
   margin: 40px auto 10px; /*margin: top right bottom left; */
   padding-left: 10px;
   width: 80%;
-  font-size: 24pt;
+  font-size: 30pt;
   font-weight: 700;
   color: #e27e37; /* Código hexadecimal da cor */
   justify-content: center;
@@ -44,7 +44,7 @@ body {
   margin: 10px auto 10px;
   padding-left: 10px;
   width: 80%;
-  font-size: 20pt;
+  font-size: 25pt;
   color: #df9b4d;
   justify-content: center;
   display: flex;
@@ -62,15 +62,16 @@ body {
 }
 
 .cores {
-  color: #f5ecec;
   font-size: 24pt;
   color: white;
   background:rgb(141, 82, 5);
-  font-size: 20pt;
+  font-size: 39pt;
   font-style: italic;
-  border:3px solid rgb(134, 112, 112);
-  height: 40px;
+  border: 3px solid rgb(134, 112, 112);
+  height: 65px;
   line-height: 1.5;
+  justify-content: center;
+  display: flex;
 }
 
 .imagem_produtos_index {
@@ -78,13 +79,3 @@ body {
   height: 300px;
 }
 
-.banner-header{
-  width:100%; /* largura*/
-  height: 250px;
-  object-fit: cover;
-  object-position: 50% 50%;
-  
-  }
-  
-
-  
