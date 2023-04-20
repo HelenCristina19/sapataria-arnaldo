@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,200;1,300;1,500;1,600;1,700&display=swap');
+
 body {
     color: black;
     background-color: rgb(141, 92, 42);
@@ -47,3 +49,53 @@ body {
     width: 80%;
     font-size: 20pt;
   }
+  /* pagina contato */
+.container {
+  display: flex;
+  justify-content: space-between; /*space-between serve para alinhar ao lado tudo que esta dentro do container*/
+
+}
+.container > aside > img {
+  width: 600px;
+}
+.container aside{
+  margin:auto;
+  padding-top: 6rem;
+}
+.container h3 {
+  font-size: 14pt;
+  font-weight: 600;
+}
+
+/* formulario */
+label, button{
+  display: block;   
+}
+input, select,textarea{
+  border: none;
+  background-color: #f1f1f1d0;
+}
+button{
+  cursor: pointer; /* serve para aparecer a a maozinha para clicar*/
+}
+.contact-form{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 20rem;
+margin-left: 1rem;
+
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button{
+  width: 20rem;
+  
+}
+.social-icons {
+  height: 5rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+
