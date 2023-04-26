@@ -56,7 +56,7 @@ body {
 
 }
 .container > aside > img {
-  width: 600px;
+  width: 800px;
 }
 .container aside{
   margin:auto;
@@ -82,7 +82,7 @@ button{
 display: flex;
 flex-direction: column;
 justify-content: space-around;
-height: 20rem;
+height: 23rem;
 margin-left: 5rem;
 
 }
@@ -90,7 +90,7 @@ margin-left: 5rem;
 .contact-form textarea,
 .contact-form select,
 .contact-form button{
-  width: 20rem;
+  width: 25rem;
   
 }
 .social-icons {
