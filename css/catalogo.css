@@ -1,7 +1,6 @@
 body {
     color: black;
-    background-color: rgb(180, 142, 104);
-    background-image: url("../pasta-de-imagens/sapataria.jpeg");
+    background-color: rgb(233, 229, 227);
     background-size: cover;
 }
 
@@ -34,7 +33,7 @@ body {
   width: 80%;
   font-size: 30pt;
   font-weight: 700;
-  color: #e27e37; /* Código hexadecimal da cor */
+  color: #42240f; /* Código hexadecimal da cor */
   justify-content: center;
   display: flex;
 }
@@ -44,7 +43,7 @@ body {
   padding-left: 10px;
   width: 80%;
   font-size: 25pt;
-  color: #df9b4d;
+  color: #855926;
   justify-content: center;
   display: flex;
 }
@@ -76,5 +75,7 @@ body {
 .imagem_produtos_index {
   width: 300px;
   height: 300px;
+  mix-blend-mode: multiply;
 }
+
 

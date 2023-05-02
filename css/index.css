@@ -1,6 +1,7 @@
 body {
     color: black;
     background-color: rgb(141, 92, 42);
+     background-image: url("../pasta-de-imagens/sapataria.jpeg");
     background-size: cover;
     
 }
@@ -64,13 +65,6 @@ body {
     height: 150px;
   }
   
-.banner-header{
-  width:100%; /* largura*/
-  height: 250px;
-  object-fit: cover;
-  object-position: 50% 50%;
-  
-  }
   
 
 
