@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contato.css">
+
       <title>Sapataria do Arnaldo - Contato</title>
     </head>
+
     <body>
 
-</head>
-<body>
+    <header>  
+        
     <nav class="menu">
         <ul>
             <li><a href="index.html">home</a></li>
@@ -21,21 +24,62 @@
         </ul>
     </nav>
 
-    <main>
+  <h2 class="subtitulo-pagina">Entre em contato conosco</h2>
+  </header>
 
-      <header>
-    
-        <h2 class="subtitulo-pagina">Entre em contato conosco</h2>
-      </header>
-    
-    </main>
-    <footer class="rodape">
-    <address>
-        <p>Rua Forte do Leme, 52</p>
-        <p>Jd. Santa Adélia</p>
-        <p>São Paulo-SP</p>
-        <p>Telefone: (11) 3371-1279</p>
-    </address>
-    </footer>
+     <div class="container">
+       <main>
+           <form class="contact-form" action="" method=""
+               onsubmit="alert('Formulário enviado')">
+               <label for="name">nome:</label>
+               <input type="text" id="name" autofocus required>
+               <!-- autofocus serve para ir direto para o primero campo do formulario -->
+   
+               <label for="mail">Email:</label>
+               <input type="email" id="mail" required> <!-- required serve para deixar o campo obrigatorio -->
+   
+               <label for="subject">Assunto:</label required>
+               <!-- <input type="text" id="subject"> -->
+               <select id="subject" required>
+                   <option value="Prazo" >Prazo de entrega</option>
+                   <option value="Orçamento" >Orçamento</option>
+                   <option value="Contato" >Contato</option>
+                   <option value="Outros" >Outros</option>
+
+               </select>
+   
+               <label for="message">Mensagem:</label>
+               <textarea id="message" cols="30" rows="5" placeholder="Digite aqui seu problema..."></textarea>
+   
+               <label for="phone">Telefone:</label required>
+               <input type="tel" id="phone" required placeholder="(xx)xxxxx-xxxx"> <!-- o placeholder serve para simular como o usuario deve escrever -->
+               <button>Enviar</button>
+           </form>
+       </main>
+       <aside>
+           <img src="./pasta-de-imagens/sapataria_inicio.jpg" alt="foto do local">
+   
+           <h3>Horario de funcionamento</h3>
+           <p>seg a sex. </p>
+           <p>das 08h ás 17h</p>
+           <p>Sábados</p>
+           <p>das 09h ás 12h</p>
+         
+           <a href="#"><img class="social-icons" src="./pasta-de-imagens/icons/facebook.jpg" alt="Facebook"></a>
+           <a href="#"><img class="social-icons" src="./pasta-de-imagens/icons/instagram.png"alt="Instagram"></a>
+           <a href="#"><img class="social-icons" src="./pasta-de-imagens/icons/gmail.png" alt="Email"></a>
+           <a href="#"><img class="social-icons" src="./pasta-de-imagens/icons/whatsapp.png" alt="Whatsapp"></a>
+          
+       </aside>
+   </div>
+   
+   <footer class="rodape">
+   <address>
+       <p>Rua Forte do Leme, 52</p>
+       <p>Jd. Santa Adélia</p>
+       <p>São Paulo-SP</p>
+       <p>Telefone: (11) 3371-1279</p>
+   </address>
+   </footer>
 </body>
 </html>

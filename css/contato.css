@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,200;1,300;1,500;1,600;1,700&display=swap');
+
+body {
+    color: black;
+    background-color: rgb(141, 92, 42);
+    
+}
+.menu {
+    display: flex;
+    background-color: rgb(102, 62, 13);
+    justify-content: center;
+
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.menu a {
+    text-decoration: none;
+    color: #1a1919;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.imagem-banner {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: 0,10%;
+  }
+
+.rodape {
+  background-color: #81542c;
+    color: #ffffff;
+    padding: 20px;
+  }
+  .titulo-pagina {
+    margin: 40px auto 10px; /*margin: top right bottom left; */
+    padding-left: 10px;
+    width: 80%;
+    font-size: 24pt;
+    font-weight: 700;
+    color: #583b22; /* Código hexadecimal da cor */
+  }
+  
+  .subtitulo-pagina {
+    margin: 40px auto 10px;
+    padding-left: 10px;
+    width: 30%;
+    font-size: 30pt;
+  }
+  /* pagina contato */
+.container {
+  display: flex;
+  justify-content: space-between; /*space-between serve para alinhar ao lado tudo que esta dentro do container*/
+
+}
+.container > aside > img {
+  width: 800px;
+}
+.container aside{
+  margin:auto;
+  padding-top: 6rem;
+}
+.container h3 {
+  font-size: 14pt;
+  font-weight: 600;
+}
+
+/* formulario */
+label, button{
+  display: block;   
+}
+input, select,textarea{
+  border: none;
+  background-color: #f1f1f1d0;
+}
+button{
+  cursor: pointer; /* serve para aparecer a a maozinha para clicar*/
+}
+.contact-form{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 23rem;
+margin-left: 5rem;
+
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button{
+  width: 25rem;
+  
+}
+.social-icons {
+  height: 5rem;
+  padding-top: 3rem;
+ 
+  padding-left: 3rem;
+}
+

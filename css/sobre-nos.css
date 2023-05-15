@@ -1,0 +1,118 @@
+body {
+    color: black;
+    background-color: rgb(141, 92, 42);
+    
+}
+.menu {
+    display: flex;
+    background-color: rgb(102, 62, 13);
+    justify-content: center;
+
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.menu a {
+    text-decoration: none;
+    color: #1b1a1a;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.rodape {
+    background-color: #81542c;
+    color: #ffffff;
+    padding: 20px;
+  }
+  .titulo-pagina {
+    margin: 40px auto 10px; /*margin: top right bottom left; */
+    padding-left: 10px;
+    width: 80%;
+    font-size: 24pt;
+    font-weight: 700;
+    color: #582e09; /* Código hexadecimal da cor */
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+
+  }
+  
+  .subtitulo-pagina {
+    margin: 10px auto 10px;
+    padding-left: 10px;
+    width: 80%;
+    font-size: 20pt;
+    color: #582e09; /* Código hexadecimal da cor */
+  }
+  .immagem_do_banner {
+    width: 200%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 0,10%;
+  }
+
+  .paragrafo_1 {
+    margin: 10px auto 10px;
+    padding-left: 10px;
+    width: 50%;
+    font-size: 20pt;
+    color: #111010;
+
+  }
+
+  .seçao_1{
+    margin-top: 80px;
+    display: flex;
+    background-color: rgb(102, 62, 13);
+    justify-content: center;
+
+  }
+
+  .titulo-fotos_da_sapataria{
+    margin: 40px auto 10px; /*margin: top right bottom left; */
+    padding-left: 10px;
+    width: 80%;
+    font-size: 24pt;
+    font-weight: 700;
+    color: #582e09; /* Código hexadecimal da cor */
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+
+  }
+
+  .immagem_do_banner_1 {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: 0,10%;
+  }
+
+  .immagem_do_banner_2 {
+    margin: 10px auto 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 600px;
+    font-size: 20pt;
+    color: #111010;
+
+  }
+
+  .immagem_do_banner_3 {
+    margin: 10px auto 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 600px;
+    font-size: 20pt;
+    color: #111010;
+  }
+
+  .seçao_2{
+    margin-top: 80px;
+    display: flex;
+    background-color: rgb(102, 62, 13);
+    justify-content: center;
+
+  }
