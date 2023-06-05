@@ -78,4 +78,24 @@ body {
   mix-blend-mode: multiply;
 }
 
+@media screen and (max-width: 400px) {
+  main, navbar, .page-title, .page-subtitle{
+    width: 100%;
+  }
+   
+  .navbar ul{
+    justify-content: center;
+  }
+
+  .imagem_produtos_index{
+    height: 100px;
+  }
+  
+  .navbar a{
+    white-space: nowrap;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+}
+
 
