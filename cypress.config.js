@@ -7,6 +7,6 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: 'http://127.0.0.1:5500',
-    experimentalStudio:true,
+    experimentalStudio: true,
   },
 });

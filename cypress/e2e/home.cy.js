@@ -10,5 +10,4 @@ describe('Testes na Home', () => {
     cy.visit('/index.html');
 
 })
-
 })
