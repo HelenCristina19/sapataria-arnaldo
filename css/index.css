@@ -5,18 +5,18 @@ body {
     background-size: cover;
     
 }
-.menu {
+.navbar {
     display: flex;
     background-color: rgb(102, 62, 13);
     justify-content: center;
 
 }
-.menu ul {
+.navbar ul {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
-.menu  a {
+.navbar  a {
     text-decoration: none;
     color: #181616;
     text-transform: uppercase;
